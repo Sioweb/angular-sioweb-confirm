@@ -35,7 +35,7 @@
     }
   },
   "deprecated": false,
-  "description": "Angular[2] directive collection.",
+  "description": "Angular[2] confirm plugin.",
   "devDependencies": {
     "@angular/common": "2.4.6",
     "@angular/compiler": "2.4.6",
@@ -79,7 +79,7 @@
     "angular2",
     "directive",
     "confirm",
-    "jquery",
+    "jquery"
   ],
   "license": "GNU",
   "main": "index.js",
