@@ -92,7 +92,6 @@
     "type": "git",
     "url": "git+https://github.com/sioweb/angular-sioweb-confirm.git"
   },
-  "scripts": {
-  },
-  "version": "1.0.0"
+  "scripts": {},
+  "version": "1.0.1"
 }
