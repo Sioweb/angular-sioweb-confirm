@@ -1,6 +1,6 @@
 {
-  "_from": "angular-sioweb-confirm@^1.0.1",
-  "_id": "angular-sioweb-confirm@1.0.1",
+  "_from": "angular-sioweb-confirm@^1.0.2",
+  "_id": "angular-sioweb-confirm@1.0.2",
   "_inBundle": false,
   "_integrity": "sha512-6F3WQ4unN6q/3/X+m2MiW9CzDy2ac3xfWzGJrG4pPDKMeMIRuiS0pr26CZYeGTy6YJbJOo0LkUFkHxqG3ktFGA==",
   "_location": "/angular-sioweb-confirm",
@@ -8,22 +8,22 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "angular-sioweb-confirm@^1.0.1",
+    "raw": "angular-sioweb-confirm@^1.0.2",
     "name": "angular-sioweb-confirm",
     "escapedName": "angular-sioweb-confirm",
-    "rawSpec": "^1.0.1",
+    "rawSpec": "^1.0.2",
     "saveSpec": null,
-    "fetchSpec": "^1.0.1"
+    "fetchSpec": "^1.0.2"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/angular-sioweb-confirm/-/angular-sioweb-confirm-1.0.1.tgz",
+  "_resolved": "https://registry.npmjs.org/angular-sioweb-confirm/-/angular-sioweb-confirm-1.0.2.tgz",
   "_shasum": "6e79306e8f098c0dbccd056d049c488de484117b",
-  "_spec": "angular-sioweb-confirm@^1.0.1",
+  "_spec": "angular-sioweb-confirm@^1.0.2",
   "_where": "C:\\wamp\\www\\E-Paper",
   "author": {
-    "name": "George Frick"
+    "name": "Sascha Weidner"
   },
   "bugs": {
     "url": "https://github.com/sioweb/angular-sioweb-confirm/issues"
@@ -72,7 +72,9 @@
     "ts-helpers": "1.1.2",
     "tslint": "4.4.2",
     "tslint-loader": "3.3.0",
-    "typescript": "2.1.5"
+    "typescript": "2.1.5",
+    "webpack": "2.2.1",
+    "zone.js": "0.7.6"
   },
   "homepage": "https://github.com/sioweb/angular-sioweb-confirm",
   "keywords": [
@@ -91,6 +93,12 @@
     "type": "git",
     "url": "git+https://github.com/sioweb/angular-sioweb-confirm.git"
   },
-  "scripts": {},
+  
+  "scripts": {
+    "build": "webpack && cp bundles/ng2-sioweb-confirm.umd.js bundles/index.js",
+    "commit": "npm run prepublish && npm test && git-cz",
+    "prepublish": "ngc && npm run build",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
   "version": "1.0.2"
 }
