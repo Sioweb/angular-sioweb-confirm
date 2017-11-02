@@ -93,12 +93,11 @@
     "type": "git",
     "url": "git+https://github.com/sioweb/angular-sioweb-confirm.git"
   },
-  
   "scripts": {
     "build": "webpack && cp bundles/ng2-sioweb-confirm.umd.js bundles/index.js",
     "commit": "npm run prepublish && npm test && git-cz",
     "prepublish": "ngc && npm run build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
