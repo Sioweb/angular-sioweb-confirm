@@ -88,5 +88,5 @@
     "prepublishOnly": "npm run build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
