@@ -85,7 +85,7 @@
   },
   "scripts": {
     "build": "webpack && cp bundles/ng2-sioweb-confirm.umd.js bundles/index.js",
-    "commit": "npm run prepublish",
+    "prepublish": "ngc && npm run build",
     "prepublishOnly": "npm run build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
