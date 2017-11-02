@@ -1,26 +1,26 @@
 {
-  "_from": "angular-sioweb-confirm",
-  "_id": "angular-sioweb-confirm@1.0.0",
+  "_from": "angular-sioweb-confirm@^1.0.1",
+  "_id": "angular-sioweb-confirm@1.0.1",
   "_inBundle": false,
+  "_integrity": "sha512-6F3WQ4unN6q/3/X+m2MiW9CzDy2ac3xfWzGJrG4pPDKMeMIRuiS0pr26CZYeGTy6YJbJOo0LkUFkHxqG3ktFGA==",
   "_location": "/angular-sioweb-confirm",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "angular-sioweb-confirm",
+    "raw": "angular-sioweb-confirm@^1.0.1",
     "name": "angular-sioweb-confirm",
     "escapedName": "angular-sioweb-confirm",
-    "rawSpec": "",
+    "rawSpec": "^1.0.1",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^1.0.1"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/angular-sioweb-confirm/-/angular-sioweb-confirm-1.0.0.tgz",
-  "_shasum": "4d6e76ff339edee94e0767f564e124c1db1bbb99",
-  "_spec": "angular-sioweb-confirm",
+  "_resolved": "https://registry.npmjs.org/angular-sioweb-confirm/-/angular-sioweb-confirm-1.0.1.tgz",
+  "_shasum": "6e79306e8f098c0dbccd056d049c488de484117b",
+  "_spec": "angular-sioweb-confirm@^1.0.1",
   "_where": "C:\\wamp\\www\\E-Paper",
   "author": {
     "name": "George Frick"
@@ -85,8 +85,7 @@
   "main": "index.js",
   "name": "angular-sioweb-confirm",
   "peerDependencies": {
-    "@angular/core": "^2.0.0",
-    "@angular/http": "^2.0.0"
+    "@angular/core": "^2.0.0"
   },
   "repository": {
     "type": "git",
