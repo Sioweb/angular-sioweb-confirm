@@ -1,26 +1,27 @@
 {
-  "_from": "angular-sioweb-confirm@^1.0.2",
-  "_id": "angular-sioweb-confirm@1.0.2",
+  "_from": "angular-sioweb-confirm@^1.0.1",
+  "_id": "angular-sioweb-confirm@1.0.4",
   "_inBundle": false,
-  "_integrity": "sha512-6F3WQ4unN6q/3/X+m2MiW9CzDy2ac3xfWzGJrG4pPDKMeMIRuiS0pr26CZYeGTy6YJbJOo0LkUFkHxqG3ktFGA==",
+  "_integrity": "sha512-6EycrulLTPfggM0RRjyFDk+0Q9XVNcisT+Sfsk2S9LHQTXVssZSo5x86MuE59032ZD6SWSY21i9Fpk+SXnZk4w==",
   "_location": "/angular-sioweb-confirm",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "angular-sioweb-confirm@^1.0.2",
+    "raw": "angular-sioweb-confirm@^1.0.1",
     "name": "angular-sioweb-confirm",
     "escapedName": "angular-sioweb-confirm",
-    "rawSpec": "^1.0.2",
+    "rawSpec": "^1.0.1",
     "saveSpec": null,
-    "fetchSpec": "^1.0.2"
+    "fetchSpec": "^1.0.1"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/angular-sioweb-confirm/-/angular-sioweb-confirm-1.0.2.tgz",
-  "_shasum": "6e79306e8f098c0dbccd056d049c488de484117b",
-  "_spec": "angular-sioweb-confirm@^1.0.2",
+  "_resolved": "https://registry.npmjs.org/angular-sioweb-confirm/-/angular-sioweb-confirm-1.0.4.tgz",
+  "_shasum": "9d55565641c80bfb31be6a8db42ead522beea002",
+  "_spec": "angular-sioweb-confirm@^1.0.1",
   "_where": "C:\\wamp\\www\\E-Paper",
   "author": {
     "name": "Sascha Weidner"
@@ -84,7 +85,7 @@
   },
   "scripts": {
     "build": "webpack && cp bundles/ng2-sioweb-confirm.umd.js bundles/index.js",
-    "commit": "npm run prepublish && npm test && git-cz",
+    "commit": "npm run prepublish",
     "prepublishOnly": "npm run build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
